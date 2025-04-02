@@ -15,6 +15,13 @@ struct player{
     int level; //level do personagem
     int exp; //experiencia do personagem
 };
+struct monstro{
+    int x, y; //posição do mod
+    int vida; //Pontos de Vida do monstro
+    int dano; //dano que ele vai causar
+    int level; //level do monstro
+    int xp; //quanto de xp que vai dropar
+};
 
 int menu(){
     int op=0, auxMenu=0;
